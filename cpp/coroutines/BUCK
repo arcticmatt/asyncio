@@ -1,0 +1,11 @@
+cxx_binary(
+  name = 'sync_coroutine',
+  srcs = [
+    'SyncCoroutine.cpp',
+  ],
+  deps = [
+  ],
+  compiler_flags = [
+      '-fcoroutines-ts',
+  ],
+)
